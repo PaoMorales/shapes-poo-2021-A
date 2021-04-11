@@ -20,7 +20,7 @@ public class Main {
 
         for (Shape shape : shapes) {
             System.out.println("Name: " + shape.getName());
-            System.out.println("Sides count: " + shape.getSidesCount());
+             System.out.println("Sides count: " + shape.getSidesCount());
             System.out.println("Perimeter: " + shape.getPerimeter());
             System.out.println("Area: " + shape.getArea());
             System.out.println("-----------------------------------------------");

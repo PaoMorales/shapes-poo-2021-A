@@ -18,7 +18,16 @@ public class Circle extends Shape {
         return "Circle";
     }
 
+
     public int getRadio() {
         return radio;
+    }
+
+    public double getArea() {
+        return (2 * Math.PI * radio);
+    }
+
+    public double getPerimeter() {
+        return Math.PI * (Math.pow( radio, 2));
     }
 }

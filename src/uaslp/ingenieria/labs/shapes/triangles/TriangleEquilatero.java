@@ -8,4 +8,16 @@ public class TriangleEquilatero extends Triangle {
     public TriangleEquilatero(int side) {
         this.side = side;
     }
+
+    public String getName() {
+        return "Triangle Equilatero";
+    }
+
+    public double getPerimeter() {
+        return side * 3;
+    }
+
+    public double getArea() {
+        return side * side;
+    }
 }
